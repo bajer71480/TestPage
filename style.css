@@ -1,0 +1,73 @@
+/* Ustawienia calej strony */
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #111827;
+	color:white;
+}
+
+/* Styl naglowka */
+
+header {
+	text-align: center;
+	padding: 60px 20px 40px;
+}
+
+header h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+header p {
+	color: #9CA3AF;
+	font-size: 18px;
+}
+
+/* Styl glownej zawartosci */
+
+main {
+	max-width: 100px;
+	margin: 0px;
+	padding: 20px;
+}
+
+section h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* Styl kart */
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.card {
+	background: #1F2937;
+	padding: 25px;
+	border-radius: 15px;
+	transition: 0.3s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.card h3 {
+	color: #9CA3AF;
+}
+
+/* Styl stopki */
+
+footer {
+	text-align: center;
+	padding: 50px 20px;
+	color: #6B7280;
+}
